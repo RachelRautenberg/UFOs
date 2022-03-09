@@ -4,21 +4,6 @@ const tableData = data;
 // reference the HTML table using d3
 var tbody = d3.select("tbody");
 
-// simple JavaScript console.log statement
-function printHello() {
-    console.log("Hello there!");
-};
-
-// practice arrow.fat arrows
-addition = (a, b) => a+b;
-
-function doubleAddition(c, d) {
-    var total = addition(c, d) *2;
-    return total;
-}
-
-doubleAddition = (c, d) => addition(c, d) * 2;
-
 function buildTable(data) {
    // clear out existing data
     tbody.html("");
@@ -36,3 +21,23 @@ function buildTable(data) {
 
     });
 }
+
+function handleClick() {
+    // grab the datetime value from filter
+    let date = d3.select("#datetime").property("value");
+    let filteredData = tableData;
+
+    // check to see if a date was entered and filter with that date
+    // filter
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    }
+    // rebuild table using filteredData, use default if no date entered
+    buildTable(filteredData);
+}
+
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// build the table when the page loads
+buildTable(tableData);
+
