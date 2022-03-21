@@ -8,7 +8,7 @@ The project undertaking required the set up of a webpage with a table where data
 ## Results
 When a user first lands on the webpage, they are greeted with a welcome paragraphe, leaving them to speculate our universe.  There is an initial table of information and on the left hand side there are filter options for sorting through in a variety of ways.  The filtering is set up in such a manner that a user can use one, or more, or all, filter options to get to their particular level of curiosity and comparison. 
 
-![starting_image]()
+![starting_image](https://github.com/RachelRautenberg/UFOs/blob/main/Resources/starting_page.PNG)
 
 An example of basic filtering would find the user entering just a city and state, then either pressing enter or clicking in to the next box.  In this example, we filtered using Willow, AK.  Note, however, that the data is in all lowercase, so the user actually needs to enter willow and ak.
 
