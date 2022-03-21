@@ -12,7 +12,8 @@ When a user first lands on the webpage, they are greeted with a welcome paragrap
 
 An example of basic filtering would find the user entering just a city and state, then either pressing enter or clicking in to the next box.  In this example, we filtered using Willow, AK.  Note, however, that the data is in all lowercase, so the user actually needs to enter willow and ak.
 
-![city_state_filter]()
+![city_state_filter](https://github.com/RachelRautenberg/UFOs/blob/main/Resources/city_state_filter.PNG
+)
 
 The exciting thing about the setup on this webpage is that it allows users to decide what information is important for their own seeking of answers. 
 
