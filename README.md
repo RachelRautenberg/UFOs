@@ -21,7 +21,10 @@ The exciting thing about the setup on this webpage is that it allows users to de
 
  In a summary statement, describe one drawback of this new design and two recommendations for further development.
  
-There is one drawback that spiders to a few areas of challenge: data inconsistency and lack of direction for user filtering. The current set up requires a user to use lower case only and to know how the data is entered to be able to filter. 
+There is one drawback that spiders to a few areas of challenge: data inconsistency and lack of direction for user filtering. The current set up requires a user to use lower case only and to know how the data is entered to be able to filter. When it comes to the data, one obvious inconsistency is that under the shape category, users will also find 'light' and 'formation' as descriptors. These are not a shape, so could be overlooked if the user is looking to explore and compare various shape cateogries. 
 
-Recommendations to combat these challenges would be to adjust filter boxes to ignore case and to alter the date and shape filter boxes to be a calendar box and drop down of choices respectively. 
+Recommendations to combat these challenges would be:
+*adjust filters to ignore case
+*alter the date and shape filter boxes to be a calendar box and drop down of choices respectively
+*change title "shape" to "descriptors" to give a little direction to the potential for filter requests that aren't specifically a shape
  
