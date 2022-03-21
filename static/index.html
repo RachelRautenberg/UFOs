@@ -41,20 +41,34 @@
                 <div class="col-md-3">
                     <form class="bg-dark">
                         <p>Filter Search</p>
-                        <ul class="bg-dark" class="list-group" style="list-style: none;">
-                         <li class="bg-dark" class="list-group-item">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
-                         </li>
-                         <li class="bg-dark" class="list-group-item">
-                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
-                         </li>
+                    
+                        <ul class="bg-dark" class="list-group" style="list-style-type: none;">
+                            <li class="bg-dark" class="list-group-item">
+                                <label for="date">Enter Date</label><br>
+                                <input type="text" class="form-control" placeholder="1/10/2010" id="datetime"/>
+                            </li>
+                            <li class="bg-dark" class="list-group-item">
+                                <label for="city">Enter City</label><br>
+                                <input type="text" class="form-control" placeholder="city name" id="city"/>
+                            </li>
+                            <li class="bg-dark" class="list-group-item">
+                                <label for="state">Enter State</label><br>
+                                <input type="text" class="form-control" placeholder="state name" id="state"/>
+                            </li>
+                            <li class="bg-dark" class="list-group-item">
+                                <label for="country">Enter Country</label><br>
+                                <input type="text" class="form-control" placeholder="country name" id="country"/>
+                            </li>
+                            <li class="bg-dark" class="list-group-item">
+                                <label for="shape">Enter Shape</label><br>
+                                <input type="text" class="form-control" placeholder="shape" id="shape"/>
+                            </li>
                         </ul>
                     </form>
                 </div>
-             <div class="col-md-9">
-                <table class="table table-striped">
-                    <thead>
+                <div class="col-md-9">
+                    <table class="table table-striped">
+                        <thead>
                             <tr>
                                 <th>Date</th>
                                 <th>City</th>
@@ -64,10 +78,10 @@
                                 <th>Duration</th>
                                 <th>Comments</th>
                             </tr>
-                    </thead>
-                    <tbody> </tbody>
-                </table>
-             </div>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
